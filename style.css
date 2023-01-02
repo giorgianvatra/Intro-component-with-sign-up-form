@@ -13,6 +13,14 @@
     --neutral-dark-blue: hsl(249, 10%, 26%);
     --neutral-grayish-blue: hsl(246, 25%, 77%);
 }
+html{ 
+    max-width: 1440px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
